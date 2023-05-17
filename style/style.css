@@ -29,6 +29,9 @@ body {
 }
 
 .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 250px;
     height: 400px;
     background-color: white;
