@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: 1440px;
+    height: auto;
+    background-image: url('../images/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 250px;
+}
+
+.img {
+    width: 250px;
+    border-radius: 15px 15px 0px 0px;
+    border: 2px solid hsl(225, 100%, 94%);
+}
+
+.card-text {
+    text-align: center;
+    padding: 25px;
+}
+
+.tittle {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+
+.pharagrafh {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.plan-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.img-music {
+    width: 30px;
+}
+
+.annual {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 10px;
+    color: hsl(224, 23%, 55%);
+}
+
+a {
+
+    font-size: 12px;
+}
+
+
+.content-button {
+    padding-top: 15px;
+}
+
+
+.button-plan {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+
+
+.content-link {
+    padding-top: 10px;
+}
+
+
+
+.cancel {
+    width: 200px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white; 
+    color: hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 10px;
+    text-decoration: none;
+}
